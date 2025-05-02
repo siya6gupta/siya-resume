@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Siya Gupta | Graphic Designer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50 text-gray-800 leading-relaxed">
+  <div class="max-w-5xl mx-auto px-6 py-10">
+    
+    <!-- Header -->
+    <header class="text-center mb-14">
+      <h1 class="text-4xl md:text-5xl font-bold text-gray-900">Siya Gupta</h1>
+      <p class="text-lg text-indigo-600 mt-2 tracking-wide">Graphic Designer</p>
+    </header>
+
+    <!-- About -->
+    <section class="bg-white shadow-sm rounded-xl p-8 mb-10 border border-gray-200">
+      <div class="flex flex-col md:flex-row gap-8 items-center">
+        <div class="md:w-1/3 mb-6 md:mb-0">
+          <img src="profile.jpg" alt="Siya Gupta" class="profile-image w-48 h-48 mx-auto">
+        </div>
+        <div class="md:w-2/3">
+          <h2 class="text-2xl font-bold mb-4">About Me</h2>
+          <p>
+            A dedicated graphic designer with a strong work ethic and a passion for creativity. I excel at transforming
+            ideas into impactful designs, continuously honing my skills to stay ahead in the dynamic design field. Each
+            project is an opportunity to blend strategy and creativity for lasting results.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grid: Contact & Education -->
+    <section class="grid md:grid-cols-2 gap-8 mb-10">
+      <div class="bg-white shadow-sm rounded-xl p-6 border border-gray-200">
+        <h2 class="text-2xl font-bold mb-4">Contact</h2>
+        <p><strong>Phone:</strong> 6263020297</p>
+        <p><strong>Email:</strong> <a href="mailto:siya6gupta@gmail.com" class="text-indigo-600 hover:underline">siya6gupta@gmail.com</a></p>
+      </div>
+
+      <div class="bg-white shadow-sm rounded-xl p-6 border border-gray-200">
+        <h2 class="text-2xl font-bold mb-4">Education</h2>
+        <p class="mb-3"><strong>NIFT</strong> – National Institute of Fashion Technology<br>B.Des in Fashion Communication</p>
+        <p><strong>Little Angels High School</strong>, Gwalior – 2022</p>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="bg-white shadow-sm rounded-xl p-8 mb-10 border border-gray-200">
+      <h2 class="text-2xl font-bold mb-4">Experience</h2>
+      <ul class="list-disc list-inside space-y-2">
+        <li>Interned at Muskurahat Foundation as a Content Writer</li>
+        <li>Interned at Marks and Spencer for 2 months as a UX Designer and SEO Content Creator</li>
+        <li>Co-Head of the Social Media Team in College</li>
+      </ul>
+    </section>
+
+    <!-- Portfolio -->
+    <section class="bg-white shadow-sm rounded-xl p-8 mb-10 border border-gray-200">
+      <h2 class="text-2xl font-bold mb-6">Portfolio Highlights</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="portfolio-item">
+          <img src="images/portfolio1.jpg" alt="Design Project 1">
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-1">Brand Design</h3>
+            <p class="text-sm text-gray-600">Logo and identity design for a fashion brand</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/portfolio2.jpg" alt="Design Project 2">
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-1">Digital Illustration</h3>
+            <p class="text-sm text-gray-600">Original artwork for marketing campaign</p>
+          </div>
+        </div>
+        <div class="portfolio-item">
+          <img src="images/portfolio3.jpg" alt="Design Project 3">
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-1">UI/UX Design</h3>
+            <p class="text-sm text-gray-600">Mobile app interface for a lifestyle brand</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Grid: Skills & Software -->
+    <section class="grid md:grid-cols-2 gap-8 mb-10">
+      <div class="bg-white shadow-sm rounded-xl p-6 border border-gray-200">
+        <h2 class="text-2xl font-bold mb-4">Skills</h2>
+        <ul class="list-disc list-inside space-y-1 skill-list">
+          <li>Sketching</li>
+          <li>Content Creation</li>
+          <li>Social Media Marketing & Management</li>
+          <li>Illustration</li>
+          <li>Photography</li>
+        </ul>
+      </div>
+
+      <div class="bg-white shadow-sm rounded-xl p-6 border border-gray-200">
+        <h2 class="text-2xl font-bold mb-4">Software Proficiency</h2>
+        <ul class="list-disc list-inside space-y-1 software-list">
+          <li>Adobe Illustrator</li>
+          <li>Adobe Photoshop</li>
+          <li>Adobe InDesign</li>
+          <li>Procreate</li>
+          <li>Figma</li>
+          <li>Final Cut</li>
+          <li>Adobe Premiere Pro</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-sm text-gray-500 mt-10">
+      © 2025| Designed with ♥ by Siya Gupta.
+    </footer>
+  </div>
+</body>
+</html>
