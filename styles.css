@@ -1,0 +1,140 @@
+/* Base styles and font definitions */
+body {
+  font-family: 'Inter', sans-serif;
+  color: #2d3748;
+  line-height: 1.6;
+  background-color: #f7fafc;
+}
+
+h1, h2, h3 {
+  font-family: 'Merriweather', serif;
+  color: #1a202c;
+}
+
+/* Enhanced section styling */
+.max-w-5xl {
+  max-width: 64rem;
+}
+
+/* Header enhancements */
+header h1 {
+  transition: color 0.3s ease;
+}
+
+header h1:hover {
+  color: #4a5568;
+}
+
+header p {
+  letter-spacing: 0.05em;
+}
+
+/* Section enhancements */
+section {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Contact section enhancements */
+a.text-indigo-600 {
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a.text-indigo-600:after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 1px;
+  bottom: -2px;
+  left: 0;
+  background-color: #5a67d8;
+  transition: width 0.3s ease;
+}
+
+a.text-indigo-600:hover:after {
+  width: 100%;
+}
+
+a.text-indigo-600:hover {
+  color: #434190;
+}
+
+/* List styling enhancements */
+ul.list-disc li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+ul.list-disc li:hover {
+  transform: translateX(3px);
+}
+
+/* Footer enhancements */
+footer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Profile image styling (for when you add images) */
+.profile-image {
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+/* Portfolio item styling (for work samples) */
+.portfolio-item {
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.02);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05);
+}
+
+/* Skills and software section enhancements */
+.skill-list li, .software-list li {
+  transition: padding-left 0.2s ease;
+}
+
+.skill-list li:hover, .software-list li:hover {
+  padding-left: 5px;
+  color: #4c51bf;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 768px) {
+  section:hover {
+    transform: none;
+  }
+  
+  ul.list-disc li:hover {
+    transform: none;
+  }
+}
+
